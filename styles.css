@@ -1,0 +1,188 @@
+/* Ensure the HTML and body elements take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  
+  /* Ensure the carousel container fills the full viewport */
+  .full-screen-container {
+    position: relative;  /* Allows absolute positioning for child elements */
+    height: 170vh;  /* 100% of the viewport height */
+    overflow: hidden;  /* Prevents any overflow */
+  }
+  
+  /* Ensure the image takes up the full container */
+  .carousel-img {
+    width: 100%;
+    height: 100%;  /* Ensure the image takes up the full height */
+    object-fit: cover;  /* Ensures the image covers the entire container */
+  }
+  
+  /* Style for carousel caption */
+  .carousel-caption {
+    position: absolute;  /* Position the caption on top of the image */
+    top: 40%;  /* Centers the caption vertically */
+    left: 20%;  /* Centers the caption horizontally */
+    transform: translate(-50%, -50%);  /* Adjust the position to truly center it */
+    text-align: center;
+    color: white;  /* Make text stand out on top of the image */
+    width: 100%;  /* Ensures the caption stays within the container */
+  }
+
+  
+  /* Optional: Make the h3 and p tags individually bold, if you need finer control */
+  .carousel-caption h1 {
+    font-weight: bold;
+   
+    font-size: 100;
+    }
+   .carousel-caption p {
+    font-weight: bold;
+   }
+
+  /* FOOTER
+  /* Footer styles */
+.footer {
+  background-color: #fff; /* White background */
+  padding: 30px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Email subscription container */
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-signup {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-signup:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Footer links */
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Bottom part of the footer */
+.footer-bottom {
+  .full-width-background {
+    background-color: #222; /* Dark background */
+    padding: 15px 0; /* Vertical padding */
+    color: white;
+    font-size: 14px;
+    width: 100%; /* Full width of the parent container */
+    position: relative; /* Keeps it in place */
+    left: 0;
+    right: 0;
+    margin: 0;
+    display: block;
+  }
+  
+}
+
+.footer-logo {
+  color: red;
+  font-weight: bold;
+}
+ /* Signup page */
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-container button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background-color: #555;
+}
+
+/* Magazine Page */
+.magazine-container {
+  max-width: 1100px;
+  margin-top: 20px;
+}
+
+.magazine-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.magazine-subtitle {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.magazine-card {
+  margin-bottom: 20px;
+}
+
+/* Magazine Details Page */
+.magazine-content {
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.download-btn {
+  width: 100%;
+  font-size: 16px;
+}
